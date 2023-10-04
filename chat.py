@@ -6,7 +6,7 @@ import time
 from tqdm import tqdm
 
 # Importing helper classes from external modules
-from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTTreeIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
+from llama_index import SimpleDirectoryReader, GPTListIndex, GPTTreeIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 from langchain import OpenAI
 
 import sys
